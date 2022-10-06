@@ -1,0 +1,22 @@
+{
+    "name": "silentridge/statistics-laravel",
+    "description": "A custom solution for any statistics.",
+    "keywords": [
+        "statistics",
+        "analytics"
+    ],
+    "autoload": {
+        "psr-4": {
+            "SilentRidge\\Statistics\\": "src"
+        }
+    },
+    "laravel": {
+        "providers": [
+            "SilentRidge\\Statistics\\StatisticsServiceProvider"
+        ]
+    },
+    "version": "1.0.0",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
